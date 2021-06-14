@@ -89,8 +89,10 @@ User story dari aplikasi `Daring Reminder` sebagai berikut :
 ### 4. Entity Relationship Diagram
 
 ### 5. Arsitektur Sistem
+![arsitektur-rpl](https://user-images.githubusercontent.com/74283988/121891705-00d07b80-cd46-11eb-963d-1aaafb1a0036.png)
 
 ### 6. Fungsi Utama yang Dikembangkan
-a. Fungsi Fitur Agenda :
+#### a. Fungsi Fitur Agenda :
+
 User dapat menggunakan fitur Agenda untuk mengingatkan tenggat waktu atau deadline pengumpulan tugas user, melalui fitur ini user dapat memasukkan tanggal akhir pengumpulan tugas dan memasukkan jadwal ujian berdasarkan mata kuliahnya, selain itu melalui fitur ini pengguna dapat memasukkan reminder sebagai pengingat batas akhir pengumpulan tugas
 ### 7. Fungsi CRUD
