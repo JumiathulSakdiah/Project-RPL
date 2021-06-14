@@ -72,4 +72,4 @@ User story dari aplikasi `Daring Reminder` sebagai berikut :
 ## Hasil dan Pembahasan
 
 ### 1. Use Case Diagram
-![Alt Text](rpllll.png)
+![Alt text](rpllll.png)
