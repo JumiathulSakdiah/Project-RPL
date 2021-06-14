@@ -5,8 +5,8 @@
   <h1>DARING REMINDER</h1>
   <b>Rekayasa Perangkat Lunak (KOM331)<br>
   Kelompok 7 Praktikum 2</br>
-  <b>Asisten Praktikum</br>
-  <b> 1. Ali Naufal Ammarullah</b>
+  <b>Asisten Praktikum : </br>
+  <b> 1. Ali Naufal Ammarullah</br>
   <b>  2. M Fauzan Ramadhan</br>
   <br><br>
   <table>
