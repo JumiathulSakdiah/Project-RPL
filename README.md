@@ -76,12 +76,15 @@ User story dari aplikasi `Daring Reminder` sebagai berikut :
 
 ### 2. Activity Diagram
 - Activity Diagram menggunakan Fitur Agenda : 
+
 ![fitur agenda 1](https://user-images.githubusercontent.com/74283988/121857667-116dfb00-cd20-11eb-96af-a607c05aba5c.png)
 
 - Activity Diagram menggunakan Fitur Subjek : 
+
 ![fitur subjek](https://user-images.githubusercontent.com/74283988/121857715-1cc12680-cd20-11eb-826b-cc07255c8bc9.png)
 
 - Activity Diagram menggunakan Fitur Jadwal : 
+
 ![fitur jadwal](https://user-images.githubusercontent.com/74283988/121857780-277bbb80-cd20-11eb-9d01-3ab8f55ebb59.png)
 
 ### 3. Class Diagram
@@ -95,4 +98,29 @@ User story dari aplikasi `Daring Reminder` sebagai berikut :
 #### a. Fungsi Fitur Agenda :
 
 User dapat menggunakan fitur Agenda untuk mengingatkan tenggat waktu atau deadline pengumpulan tugas user, melalui fitur ini user dapat memasukkan tanggal akhir pengumpulan tugas dan memasukkan jadwal ujian berdasarkan mata kuliahnya, selain itu melalui fitur ini pengguna dapat memasukkan reminder sebagai pengingat batas akhir pengumpulan tugas
+
+#### b. Fungsi Fitur Subjek :
+
+User dapat menggunakan fitur subjek untuk menuliskan apa saja tugas serta rincian tugas nya sehingga diharapkan user tidak akan lupa apa saja tugas yang dimilikinya, selain itu melalui fitur ini pengguna dapat memasukkan jadwal berdasarkan subjek/mata kuliah. Fitur ini juga tersambung ke fitur selanjutnya yaitu fitur jadwal di mana ketika pengguna sudah memasukkan jadwal ke berdasarkan subjeknya, maka secara otomatis jadwal akan terlihat di fitur jadwal.
+
+#### c. Fungsi Fitur Jadwal :
+
+User dapat menggunakan fitur jadwal untuk memasukkan mata kuliah apa saja yang ada pada hari bersangkutan dan apakah ada deadline tugas atau tidak, sehingga diharapkan user tidak lupa dengan jadwal pelajaran di hari tersebut. User bisa mengklik hari dan memasukkan mata kuliah nya.
+
 ### 7. Fungsi CRUD
+#### a. Fungsi Login :
+User melakukan `CREATE` akun kemudian akan datanya akan di `READ` oleh database
+
+#### b. Fungsi menambahkan jadwal:
+User melakukan `CREATE` jadwal dengan menambahkan jadwal serta tugas di hari yang bersangkutan. User juga dapat `DELETE` tugas jika sudah selesai.
+
+## HASIL IMPLEMENTASI
+- Screenshot Sistem
+- Link Aplikasi
+
+## TESTING 
+
+## SARAN PENGEMBANGAN SELANJUTNYA
+- Fitur-fitur nya bisa lebih diperjelas lagi fungsi nya
+- Pengembangan aplikasi nya bisa lebih cepat dan tidak memakan waktu lama
+- Fitur yang sudah ada bisa lebih dikembangkan lagi
