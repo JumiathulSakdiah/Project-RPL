@@ -53,4 +53,22 @@ User story dari aplikasi `Daring Reminder` sebagai berikut :
 1. Saya sebagai mahasiswa, di masa kuliah daring seperti ini, saya butuh aplikasi pengingat waktu deadline tugas saya, agar saya tidak lupa untuk mengerjakan nya.
 2. Saya sebagai mahasiswa, di masa kuliah daring seperti ini, saya butuh aplikasi yang bisa membantu saya untuk mengatur jadwal tugas yang saya miliki, agar lebih terorganisir tugas-tugas saya
 
+## SPESIFIKASI LINGKUNGAN PENGEMBANGAN
+### Hardware :
+- Processor : 1 gigahertz (GHz)
+- Graphics Card : DirectX 9 dengan drive WDDM 1.0
+- RAM : 1 GB
 
+### Software :
+- Framework : Vue Js dan Laravel
+- Database : MySQL
+- Server : Apache
+- Text Editor/IDE : Visual Studio Code atau Sublime Text 3 
+
+### Lainnya :
+- Version Control dan Collaboration Platform : Github
+- Teknologi : CSS/HTML, Javascript, dan PHP
+
+## Hasil dan Pembahasan
+
+### 1. Use Case Diagram
