@@ -46,3 +46,11 @@
 ## DESKRIPSI SINGKAT APLIKASI
 Daring Reminder merupakan aplikasi web yang dapat digunakan oleh seluruh pelajar/mahasiswa untuk pengelolaan waktu sehari-hari dan mengorganisasikan tugas serta kegiatan lainnya. Diharapkan melalui aplikasi ini, para mahasiswa dapat lebih baik dalam mengelola waktu untuk belajar serta mengerjakan tugas.
 Aplikasi ini memiliki 3 fitur utama yaitu fitur agenda, fitur subjek, dan fitur jadwal. Fitur agenda digunakan untuk mengingatkan tenggat waktu atau deadline pengumpulan tugas user, melalui fitur ini user dapat memasukkan tanggal akhir pengumpulan tugas dan memasukkan jadwal ujian berdasarkan mata kuliahnya, selain itu melalui fitur ini pengguna dapat memasukkan reminder sebagai pengingat batas akhir pengumpulan tugas. Selanjut nya fitur subjek,melalui fitur ini user dapat menuliskan apa saja tugas serta rincian tugas nya sehingga diharapkan user tidak akan lupa apa saja tugas yang dimilikinya, selain itu melalui fitur ini pengguna dapat memasukkan jadwal berdasarkan subjek/mata kuliah. Fitur ini juga tersambung ke fitur selanjutnya yaitu fitur jadwal di mana ketika pengguna sudah memasukkan jadwal ke berdasarkan subjeknya, maka secara otomatis jadwal akan terlihat di fitur jadwal.. Lalu untuk fitur jadwal, fitur ini sama seperti kalender pada umumnya, akan tetapi berisi kan mata kuliah apa saja yang ada pada hari bersangkutan dan apakah ada deadline tugas atau tidak, sehingga diharapkan user tidak lupa dengan jadwal pelajaran di hari tersebut.
+
+## USER ANALYSIS
+### User Story
+User story dari aplikasi `Daring Reminder` sebagai berikut :
+1. Saya sebagai mahasiswa, di masa kuliah daring seperti ini, saya butuh aplikasi pengingat waktu deadline tugas saya, agar saya tidak lupa untuk mengerjakan nya.
+2. Saya sebagai mahasiswa, di masa kuliah daring seperti ini, saya butuh aplikasi yang bisa membantu saya untuk mengatur jadwal tugas yang saya miliki, agar lebih terorganisir tugas-tugas saya
+
+
