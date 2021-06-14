@@ -127,104 +127,96 @@
                     </div>
                     <div class="flex flex-row overflow-x-auto space-x-4 no-scrollbar">
                         <!-- container agenda -->
+                        
                         <div class="container_agenda flex flex-row space-x-4">
-                            <div class="hover:opacity-60 cursor-pointer bg-gradient-to-br from-tugas-primary to-tugas-secondary p-5 rounded-2xl shadow-lg h-auto w-72 flex-none space-y-2">
+                        <?php
+                            class Agenda {
+                                public $tipe;
+                                public $subjek;
+                                public $judul;
+                                public $tgl;
+                                public $wkt;
+
+                                function __construct($tipe, $subjek, $judul, $tgl, $wkt){
+                                    $this->tipe = $tipe;
+                                    $this->subjek = $subjek;
+                                    $this->judul = $judul;
+                                    $this->tgl = $tgl;
+                                    $this->wkt = $wkt;
+                                }
+
+                                function tipe(){
+                                    return $this->tipe;
+                                }
+                                function subjek(){
+                                    return $this->subjek;
+                                }
+                                function judul(){
+                                    return $this->judul;
+                                }
+                                function tgl(){
+                                    return $this->tgl;
+                                }
+                                function wkt(){
+                                    return $this->wkt;
+                                }
+                            }
+
+                            $qa = new SplQueue();
+
+                            // 0=Tugas, 1=Ujian, 2=Reminder
+
+                            $qa->enqueue(new Agenda(0 , "Rekayasa Perangkat Lunak", "Tugas Mata Kuliah RPL Pertemuan 7", "Senin, 12 April 2021", "11:00"));
+                            $qa->enqueue(new Agenda(1 , "Bahasa Pemrograman", "UTS Mata Kuliah Baspro Pertemuan 7", "Senin, 12 April 2021", "11:00"));
+                            $qa->enqueue(new Agenda(2 , " ", "Belajar terus bentar lagi uas", "Senin, 12 April 2021", "11:00"));
+                            $qa->enqueue(new Agenda(0 , "Basis Data", "Tugas Mata Kuliah Basdat Pertemuan 7", "Senin, 12 April 2021", "11:00"));
+
+                            $qa->enqueue(new Agenda(2 , " ", "Jangan lupa solat", "Senin, 12 April 2021", "11:00"));
+
+                            for ($i = 0; $i < count($qa); $i= $i+1): ?>
+                            <div class="hover:opacity-60 cursor-pointer bg-gradient-to-br 
+                                        <?php 
+                                            if($qa[$i]->tipe() == 0){
+                                                echo "from-tugas-primary to-tugas-secondary";  
+                                            } else if($qa[$i]->tipe() == 1){
+                                                echo "from-ujian-primary to-ujian-secondary"; 
+
+                                            }else {
+                                                echo "from-reminder-primary to-reminder-secondary";
+
+                                            }
+                                        ?>
+                             p-5 rounded-2xl shadow-lg h-auto w-72 flex-none space-y-2">
                                 <h2 class="line-clamp-2 text-xs h-8 font-bold">
-                                    Tugas | Rekayasa Perangkat Lunak
+                                    <?php 
+                                        if($qa[$i]->tipe() == 0){
+                                            echo "Tugas" . " | " . $qa[$i]->subjek();  
+                                        } else if($qa[$i]->tipe() == 1){
+                                            echo "Ujian" . " | " . $qa[$i]->subjek();  
+
+                                        }else {
+                                            echo "Reminder";
+
+                                        }
+                                         
+                                        
+                                    
+                                    ?>
                                 </h2>
                                 <h2 class="line-clamp-3 text-lg h-20 font-extrabold">
-                                    Tugas Mata Kuliah RPL Pertemuan 7
+                                     <?php   echo $qa[$i]->judul();   ?>
                                 </h2>
                                 <div class="flex justify-between">
                                     <h2 class=" text-xs h-4 font-bold">
-                                        Senin, 12 April 2021
+                                        <?php echo $qa[$i]->tgl();     ?>
                                     </h2>
                                     <h2 class=" text-xs h-4 font-bold">
-                                        23:59
+                                        <?php echo $qa[$i]->wkt();    ?>
                                     </h2>
                                 </div>
                             </div>
-                            <div class="hover:opacity-60 cursor-pointer bg-gradient-to-br from-ujian-primary to-ujian-secondary p-5 rounded-2xl shadow-lg h-auto w-72 flex-none space-y-2">
-                                <h2 class="line-clamp-2 text-xs h-8 font-bold">
-                                    Ujian | Rekayasa Perangkat Lunak
-                                </h2>
-                                <h2 class="line-clamp-3 text-lg h-20 font-extrabold">
-                                    Ujian Tengah Semester (UTS) Mata Kuliah RPL Pertemuan 7
-                                </h2>
-                                <div class="flex justify-between">
-                                    <h2 class=" text-xs h-4 font-bold">
-                                        Senin, 12 April 2021
-                                    </h2>
-                                    <h2 class=" text-xs h-4 font-bold">
-                                        23:59
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="hover:opacity-60 cursor-pointer bg-gradient-to-br from-reminder-primary to-reminder-secondary p-5 rounded-2xl shadow-lg h-auto w-72 flex-none space-y-2">
-                                <h2 class=" line-clamp-2 text-xs h-8 font-bold">
-                                    Reminder
-                                </h2>
-                                <h2 class=" line-clamp-3 text-lg h-20 font-extrabold">
-                                    Main Tiktok aja gausah belajar
-                                </h2>
-                                <div class="flex justify-between">
-                                    <h2 class=" text-xs h-4 font-bold">
-                                        Senin, 12 April 2021
-                                    </h2>
-                                    <h2 class=" text-xs h-4 font-bold">
-                                        23:59
-                                    </h2>
-                                </div>
-                            </div>
-                            
-                            <div class="hover:opacity-60 cursor-pointer bg-gradient-to-br from-tugas-primary to-tugas-secondary p-5 rounded-2xl shadow-lg h-auto w-72 flex-none space-y-2">
-                                <h2 class="line-clamp-2 text-xs h-8 font-bold">
-                                    Tugas | Rekayasa Perangkat Lunak
-                                </h2>
-                                <h2 class="line-clamp-3 text-lg h-20 font-extrabold">
-                                    Tugas Mata Kuliah RPL Pertemuan 7
-                                </h2>
-                                <div class="flex justify-between">
-                                    <h2 class=" text-xs h-4 font-bold">
-                                        Senin, 12 April 2021
-                                    </h2>
-                                    <h2 class=" text-xs h-4 font-bold">
-                                        23:59
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="hover:opacity-60 cursor-pointer bg-gradient-to-br from-ujian-primary to-ujian-secondary p-5 rounded-2xl shadow-lg h-auto w-72 flex-none space-y-2">
-                                <h2 class="line-clamp-2 text-xs h-8 font-bold">
-                                    Ujian | Rekayasa Perangkat Lunak
-                                </h2>
-                                <h2 class="line-clamp-3 text-lg h-20 font-extrabold">
-                                    Ujian Tengah Semester (UTS) Mata Kuliah RPL Pertemuan 7
-                                </h2>
-                                <div class="flex justify-between">
-                                    <h2 class=" text-xs h-4 font-bold">
-                                        Senin, 12 April 2021
-                                    </h2>
-                                    <h2 class=" text-xs h-4 font-bold">
-                                        23:59
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="hover:opacity-60 cursor-pointer bg-gradient-to-br from-reminder-primary to-reminder-secondary p-5 rounded-2xl shadow-lg h-auto w-72 flex-none space-y-2">
-                                <h2 class=" line-clamp-2 text-xs h-8 font-bold">
-                                    Reminder
-                                </h2>
-                                <h2 class=" line-clamp-3 text-lg h-20 font-extrabold">
-                                    Main Tiktok aja gausah belajar
-                                </h2>
-                                <div class="flex justify-between">
-                                    <h2 class=" text-xs h-4 font-bold">
-                                        Senin, 12 April 2021
-                                    </h2>
-                                    <h2 class=" text-xs h-4 font-bold">
-                                        23:59
-                                    </h2>
-                                </div>
-                            </div>
+
+                            <?php endfor; ?>
                         </div>
                         <div id="add-agenda" class="cursor-pointer flex bg-gray-lightest p-5 rounded-2xl shadow-lg justify-center items-center  h-auto w-72 flex-none space-x-3 opacity-60 hover:opacity-40">
                             <svg  width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -323,15 +315,31 @@
                                    Tugas:
                                 </h1>
                                 <h1 class="text-2xl font-extrabold opacity-90 bg-gradient-to-l from-primary to-gray-lightest py-2 px-4 rounded-2xl">
-                                24
+                                <?php
+                                    $counter =0;
+                                     for ($i = 0; $i < count($qa); $i= $i+1) {
+                                        if($qa[$i]->tipe() == 0){
+                                            $counter = $counter + 1;
+                                         }
+                                     }
+                                     echo $counter; 
+                                ?>
                                 </h1>
                             </div>
                             <div class="flex flex-row justify-between items-center" >
                                 <h1 class="text-xl font-semibold opacity-90">
                                    Ujian:
                                 </h1>
-                                <h1 class="text-2xl font-extrabold opacity-60 bg-gradient-to-l from-gray-lightest to-gray-lightest py-2 px-4 rounded-2xl">
-                                    0
+                                <h1 class="text-2xl font-extrabold opacity-90 bg-gradient-to-l  from-primary to-gray-lightest py-2 px-4 rounded-2xl">
+                                    <?php
+                                        $counter =0;
+                                        for ($i = 0; $i < count($qa); $i= $i+1) {
+                                            if($qa[$i]->tipe() == 1){
+                                                $counter = $counter + 1;
+                                            }
+                                        }
+                                        echo $counter; 
+                                    ?>
                                 </h1>
                             </div>
                             <div class="flex flex-row justify-between items-center" >
@@ -339,7 +347,15 @@
                                    Reminder:
                                 </h1>
                                 <h1 class="text-2xl font-extrabold opacity-90 bg-gradient-to-l from-primary to-gray-lightest py-2 px-4 rounded-2xl">
-                                    3
+                                    <?php
+                                        $counter =0;
+                                        for ($i = 0; $i < count($qa); $i= $i+1) {
+                                            if($qa[$i]->tipe() == 2){
+                                                $counter = $counter + 1;
+                                            }
+                                        }
+                                        echo $counter; 
+                                    ?>
                                 </h1>
                             </div>
                         </div>
