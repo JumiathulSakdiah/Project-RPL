@@ -72,4 +72,14 @@ User story dari aplikasi `Daring Reminder` sebagai berikut :
 ## Hasil dan Pembahasan
 
 ### 1. Use Case Diagram
-![Alt text](rpllll.png)
+![rpllll](https://user-images.githubusercontent.com/74283988/121857468-dcfa3f00-cd1f-11eb-96f5-3b0ce10f7a0a.png)
+
+### 2. Activity Diagram
+- Activity Diagram menggunakan Fitur Agenda
+![fitur agenda 1](https://user-images.githubusercontent.com/74283988/121857667-116dfb00-cd20-11eb-96af-a607c05aba5c.png)
+
+- Activity Diagram menggunakan Fitur Subjek
+![fitur subjek](https://user-images.githubusercontent.com/74283988/121857715-1cc12680-cd20-11eb-826b-cc07255c8bc9.png)
+
+- Activity Diagram menggunakan Fitur Jadwal
+![fitur jadwal](https://user-images.githubusercontent.com/74283988/121857780-277bbb80-cd20-11eb-9d01-3ab8f55ebb59.png)
