@@ -69,7 +69,7 @@ User story dari aplikasi `Daring Reminder` sebagai berikut :
 - Version Control dan Collaboration Platform : Github
 - Teknologi : CSS/HTML, Javascript, dan PHP
 
-## Hasil dan Pembahasan
+## HASIL DAN PEMBAHASAN
 
 ### 1. Use Case Diagram
 ![rpllll](https://user-images.githubusercontent.com/74283988/121857468-dcfa3f00-cd1f-11eb-96f5-3b0ce10f7a0a.png)
@@ -88,3 +88,9 @@ User story dari aplikasi `Daring Reminder` sebagai berikut :
 
 ### 4. Entity Relationship Diagram
 
+### 5. Arsitektur Sistem
+
+### 6. Fungsi Utama yang Dikembangkan
+a. Fungsi Fitur Agenda :
+User dapat menggunakan fitur Agenda untuk mengingatkan tenggat waktu atau deadline pengumpulan tugas user, melalui fitur ini user dapat memasukkan tanggal akhir pengumpulan tugas dan memasukkan jadwal ujian berdasarkan mata kuliahnya, selain itu melalui fitur ini pengguna dapat memasukkan reminder sebagai pengingat batas akhir pengumpulan tugas
+### 7. Fungsi CRUD
