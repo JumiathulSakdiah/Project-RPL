@@ -1,0 +1,281 @@
+html {
+  font-size: 75%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+header {
+  background-color: #121212;
+  background-image: url("../assets/BG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: inset 0px 0px 320px rgba(5, 17, 41, 0.5);
+          box-shadow: inset 0px 0px 320px rgba(5, 17, 41, 0.5);
+}
+
+.card {
+  background-color: #1E1E1E;
+  width: 41.875rem;
+  height: 47.5rem;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.32);
+          box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.32);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.card div {
+  margin: 1rem auto;
+  width: 33rem;
+}
+
+.card h1 {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  opacity: 87%;
+  margin: 0;
+  padding-top: 3rem;
+  padding-bottom: -1rem;
+  color: white;
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.card input[type=text] {
+  width: 100%;
+  height: 4rem;
+  border-radius: 0.5rem;
+  background-color: #121212;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  margin: 0;
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card input[type=text]::-webkit-input-placeholder {
+  font-family: nunito;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card input[type=text]:-ms-input-placeholder {
+  font-family: nunito;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card input[type=text]::-ms-input-placeholder {
+  font-family: nunito;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card input[type=text]::placeholder {
+  font-family: nunito;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card input[type=text]:focus {
+  outline: none;
+}
+
+.card input[type=password] {
+  width: 100%;
+  height: 4rem;
+  border-radius: 0.5rem;
+  background-color: #121212;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  margin: 0;
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card input[type=password]::-webkit-input-placeholder {
+  font-family: nunito;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card input[type=password]:-ms-input-placeholder {
+  font-family: nunito;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card input[type=password]::-ms-input-placeholder {
+  font-family: nunito;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card input[type=password]::placeholder {
+  font-family: nunito;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card input[type=password]:focus {
+  outline: none;
+}
+
+.card button[name=submit_login] {
+  width: 100%;
+  height: 4rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(93.22deg, #0E419D 0%, #2C2C2C 100%);
+  border: none;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  margin: 10.5rem 0 1rem 0;
+  font-family: nunito;
+  font-weight: 800;
+  font-size: 1.5rem;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0px -4px 20px rgba(0, 0, 0, 0.16);
+          box-shadow: inset 0px -4px 20px rgba(0, 0, 0, 0.16);
+}
+
+.card button[name=submit_login]:focus {
+  outline-style: none;
+}
+
+.card button[name=submit_login]:hover {
+  opacity: 87%;
+}
+
+.card button[name=submit_signup] {
+  width: 100%;
+  height: 4rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(93.22deg, #0E419D 0%, #2C2C2C 100%);
+  border: none;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  margin: 3rem 0 1rem 0;
+  font-family: nunito;
+  font-weight: 800;
+  font-size: 1.5rem;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0px -4px 20px rgba(0, 0, 0, 0.16);
+          box-shadow: inset 0px -4px 20px rgba(0, 0, 0, 0.16);
+}
+
+.card button[name=submit_signup]:hover {
+  opacity: 87%;
+}
+
+.card span:hover {
+  opacity: 87%;
+}
+
+.card a {
+  padding-top: 0.5rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: white;
+  opacity: 60%;
+  cursor: default;
+}
+
+.card a span {
+  font-weight: 700;
+  color: #0E419D;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.container-login {
+  position: absolute;
+  opacity: 100%;
+  pointer-events: auto;
+  -webkit-transform: translateX(0%) scale(1);
+          transform: translateX(0%) scale(1);
+}
+
+.container-signup {
+  position: absolute;
+  opacity: 0%;
+  pointer-events: none;
+  -webkit-transform: translateX(100%) scale(0.9);
+          transform: translateX(100%) scale(0.9);
+}
+
+.signup-show .container-login {
+  position: absolute;
+  opacity: 0%;
+  pointer-events: none;
+  -webkit-transform: translateX(-100%) scale(0.9);
+          transform: translateX(-100%) scale(0.9);
+}
+
+.signup-show .container-signup {
+  position: absolute;
+  opacity: 100%;
+  pointer-events: auto;
+  -webkit-transform: translateX(0%) scale(1);
+          transform: translateX(0%) scale(1);
+}
+/*# sourceMappingURL=main.css.map */
