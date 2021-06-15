@@ -79,7 +79,7 @@ User story dari aplikasi `Daring Reminder` sebagai berikut :
 
 ![fitur agenda 1](https://user-images.githubusercontent.com/74283988/121857667-116dfb00-cd20-11eb-96af-a607c05aba5c.png)
 
-- Activity Diagram menggunakan Fitur Subjek : 
+- Activity Diagram menggunakan Fitur Catatan : 
 
 ![fitur subjek](https://user-images.githubusercontent.com/74283988/121857715-1cc12680-cd20-11eb-826b-cc07255c8bc9.png)
 
@@ -99,9 +99,9 @@ User story dari aplikasi `Daring Reminder` sebagai berikut :
 
 User dapat menggunakan fitur Agenda untuk mengingatkan tenggat waktu atau deadline pengumpulan tugas user, melalui fitur ini user dapat memasukkan tanggal akhir pengumpulan tugas dan memasukkan jadwal ujian berdasarkan mata kuliahnya, selain itu melalui fitur ini pengguna dapat memasukkan reminder sebagai pengingat batas akhir pengumpulan tugas
 
-#### b. Fungsi Fitur Subjek :
+#### b. Fungsi Fitur Catatn :
 
-User dapat menggunakan fitur subjek untuk menuliskan apa saja tugas serta rincian tugas nya sehingga diharapkan user tidak akan lupa apa saja tugas yang dimilikinya, selain itu melalui fitur ini pengguna dapat memasukkan jadwal berdasarkan subjek/mata kuliah. Fitur ini juga tersambung ke fitur selanjutnya yaitu fitur jadwal di mana ketika pengguna sudah memasukkan jadwal ke berdasarkan subjeknya, maka secara otomatis jadwal akan terlihat di fitur jadwal.
+User dapat menggunakan fitur catatan untuk menuliskan apa saja tugas serta rincian tugas nya sehingga diharapkan user tidak akan lupa apa saja tugas yang dimilikinya, selain itu melalui fitur ini pengguna dapat memasukkan jadwal berdasarkan subjek/mata kuliah. Fitur ini juga tersambung ke fitur selanjutnya yaitu fitur jadwal di mana ketika pengguna sudah memasukkan jadwal ke berdasarkan subjeknya, maka secara otomatis jadwal akan terlihat di fitur jadwal.
 
 #### c. Fungsi Fitur Jadwal :
 
