@@ -116,7 +116,12 @@ User melakukan `CREATE` jadwal dengan menambahkan jadwal serta tugas di hari yan
 
 ## HASIL IMPLEMENTASI
 - Screenshot Sistem
-
+### 1. Sign Up
+### 2. Login
+### 3. Home Page
+### 4. Fitur Agenda
+### 5. Fitur Catatan
+### 6. Fitur Jadwal
 - Link Aplikasi
 
 ## TESTING 
