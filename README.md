@@ -117,13 +117,21 @@ User melakukan `CREATE` jadwal dengan menambahkan jadwal serta tugas di hari yan
 ## HASIL IMPLEMENTASI
 - Screenshot Sistem
 ### 1. Sign Up
+![sign up](https://user-images.githubusercontent.com/74283988/121991772-8b5abe80-cdca-11eb-8eff-5130e7ed2638.PNG)
 ### 2. Login
+![login](https://user-images.githubusercontent.com/74283988/121991784-91e93600-cdca-11eb-9608-5f823e2e96a1.PNG)
 ### 3. Home Page
+![homepage](https://user-images.githubusercontent.com/74283988/121991802-97468080-cdca-11eb-99fd-9e168b7b5509.PNG)
 ### 4. Fitur Agenda
+![agenda](https://user-images.githubusercontent.com/74283988/121991886-b513e580-cdca-11eb-88a0-538d1e03114f.PNG)
 ### 5. Fitur Catatan
+![catatan](https://user-images.githubusercontent.com/74283988/121991898-be04b700-cdca-11eb-88b6-dbdc0f8eed5f.PNG)
 ### 6. Fitur Jadwal
-- Link Aplikasi
+![jadwal](https://user-images.githubusercontent.com/74283988/121991904-c3620180-cdca-11eb-92eb-7c5f19e9447c.PNG)
 
+- Link Aplikasi :
+http://daring-reminder.herokuapp.com/
+http://daring-reminder.herokuapp.com/home/index.php
 ## TESTING 
 
 ## SARAN PENGEMBANGAN SELANJUTNYA
